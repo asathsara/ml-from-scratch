@@ -53,6 +53,41 @@ The repository is organized as follows:
 - Matplotlib
 - Jupyter Notebook
 
+## Setup & Installation
+
+To run this project on a new device:
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd ml-from-scratch
+   ```
+
+2. **Create a virtual environment:**
+   ```bash
+   python -m venv .venv
+   ```
+
+3. **Activate the virtual environment:**
+   - **Windows:**
+     ```powershell
+     .venv\Scripts\activate
+     ```
+   - **macOS/Linux:**
+     ```bash
+     source .venv/bin/activate
+     ```
+
+4. **Install the dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Start Jupyter Notebook:**
+   ```bash
+   jupyter notebook
+   ```
+
 ## Learning Approach
 
 Each algorithm includes:
